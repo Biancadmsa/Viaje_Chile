@@ -1,0 +1,94 @@
+*{
+    color:#ffffff;
+}
+
+.navbar .logo{
+    width: 40px;
+    height: 35px;
+   
+}
+
+span{
+    font-size:25px;
+    font-family: "Cabin",sans-serif;
+    font-weight:600;
+
+}
+
+
+.navbar ul li a{
+    font-size:25px;
+    font-family: "Cabin", sans-serif
+
+    }
+    
+
+    .principal{
+        background: #000000;
+        
+    }
+
+    .contenido{
+        color:#ffffff;
+    }
+  
+    .contenido h1{
+        font-size:35px;
+        font-family: "Cabin",sans-serif;
+        font-weight:500;
+    }
+
+    .contenido h2{ 
+      font-size:35px;
+      font-family: "Cabin",sans-serif;
+      font-weight:500;
+     
+
+    }
+
+    .contenido p{
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight:500;
+    }
+    .carousel-item img {
+        width: 18rem;
+       
+
+      }
+      
+      .items img {
+        margin: .8rem;
+      }
+      
+    
+      .card img{
+        height: 11rem;
+      }
+
+      .formulario{
+        background: #000000;
+      }
+
+      
+
+      footer{
+        height: 5rem;
+      }
+
+      footer p{
+        margin-left: 30rem;
+        font-size: 25px;
+        font-family: "Cabin",sans-serif;
+        font-weight:500;
+        padding-top: 1rem;
+
+      }
+      footer i{
+        margin-left: 1rem;
+      }
+
+      footer #iconos {
+        margin-left: 37rem;
+        padding-top: 1rem; 
+    }
