@@ -7,13 +7,13 @@ var tooltipTriggerList = [].slice.call(
   });
   // Tooltip: Incluir un botón "Enviar por correo" con un tooltip aplicado
   
-  $("#enviarCorreo").click(function () {
-    alert("El correo fue enviado correctamente...");
-  });
-  // cambiar de color al hacer doble click
-  $(".ingredientes h3").on("dblclick", function () {
-    $(this).css("color", "red");
-  });
+  // $("#enviarCorreo").click(function () {
+  //   alert("El correo fue enviado correctamente...");
+  // });
+  // // cambiar de color al hacer doble click
+  // $(".ingredientes h3").on("dblclick", function () {
+  //   $(this).css("color", "red");
+  // });
   
   
    // Seleccionar el elemento padre (div.card) y usar toggle para mostrar/ocultar

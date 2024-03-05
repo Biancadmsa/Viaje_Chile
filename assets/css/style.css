@@ -2,25 +2,29 @@
     color:#ffffff;
 }
 
-.navbar .logo{
-    width: 40px;
-    height: 35px;
-   
-}
 
-span{
+.navbar p{
     font-size:25px;
     font-family: "Cabin",sans-serif;
     font-weight:600;
+    color:#ffffff;
 
 }
 
+.menuhamburguesa{
+  margin-left: 37rem;
+  background: #f1efef 0% 0% no-repeat padding-box;
+  border: 2px  solid #ffffff;
+  border-radius: 4px;
+ 
+}
+  #navbarNav ul li a{
+    color:#ffffff;
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: "Cabin", sans-serif;
+  }
 
-.navbar ul li a{
-    font-size:25px;
-    font-family: "Cabin", sans-serif
-
-    }
     
 
     .principal{
@@ -70,25 +74,46 @@ span{
         background: #000000;
       }
 
-      
+
 
       footer{
-        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
       }
 
-      footer p{
-        margin-left: 30rem;
+      footer .footertext{
         font-size: 25px;
         font-family: "Cabin",sans-serif;
         font-weight:500;
         padding-top: 1rem;
-
+        justify-content: center;
+        text-align: left;
+        vertical-align: middle;
       }
+
+      
       footer i{
         margin-left: 1rem;
+       
+      
       }
 
-      footer #iconos {
+   
+     .iconos a{
+      opacity: 0.9;
+      text-decoration: none;
+        
+      
+
+      }
+      /* footer #iconos {
         margin-left: 37rem;
         padding-top: 1rem; 
+    }  */
+
+    /* @media (max-width: 768px) {
+      .navbar {
+        max-width: 100%;
+      }
     }

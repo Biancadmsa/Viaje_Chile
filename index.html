@@ -4,8 +4,9 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Desafío Latam">
-  <meta name="description" content="Desafío Ricomida"/>
-  <meta name="keywords" content="Bootstrap,css"/>
+  <meta name="description" content="Prueba Viajes de Chile"/>
+  <meta name="keywords" content="Bootstrap,css,Html, Git y Github"/>
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -23,45 +24,38 @@
   <!-- Navbar -->
 
 
-  
-  <header id="hero-section">
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
     <div class="container">
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-                <a class="navbar-brand text-light" href="#">
-                    <img src="./assets/img/viajes.svg" alt="Logo"  class="d-inline-block align-text-top logo">
-                    <span>Viajes Chile</span>
-                  </a>
-                
-              
-                  <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-            
-              
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto" >
-                    <li class="nav-item me-3">
-                        <a class="nav-link active text-light" aria-current="page" href="#Inicio">Inicio</a>
-                      </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link active text-light" aria-current="page" href="#Quienes_Somos">Quienes Somos</a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link active text-light" href="#Destacados">Destacados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-light" href="#Contacto">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-          </nav>
+      <a class="navbar-brand" href="#">
+      <img src="./assets/img/viajes.svg" alt="Logo" id="Logo" width="30" height="24">
+      Viajes de Chile
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto" >
+          <li class="nav-item active">
+            <a class="nav-link active text-light" aria-current="page" href="#Inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="#Productos">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="#Contacto">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="#Contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </header>
+  </nav>
 
+<header>  
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -83,7 +77,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
+</header>
 
 
 <div class="container-fluid principal">
@@ -117,7 +111,7 @@
             </div>
         </section>
         
-        <section id="cardsection ">
+        <section id="destacados ">
             <h2 class="display-4 fw-bold text-center mt-5">DESTACADOS</h2>
             <hr>
             <div class="card-group mb-5 mt-5">
@@ -160,7 +154,7 @@
         </section>
 
 
-    <section class="formul">
+    <section class="formulariosection">
         <h2 class="formulario mt-5 text-center">CONTACTO</h2>
         <hr>
         <form mb-5>
@@ -183,27 +177,27 @@
     </div>
 </div>
 
+<div class="container-fluid bg-info">
+  <footer>
+      <p class="footertext">VIAJES CHILE</p>
+      <div class="iconos">
+          <a href="https://github.com/Biancadmsa" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar GitHub">
+              <i class="fab fa-github fa-2x my-1"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/biancasalcedodev/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar Linkedin">
+              <i class="fab fa-linkedin fa-2x my-1"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar Twitter">
+              <i class="fab fa-twitter fa-2x my-1"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar Facebook">
+              <i class="fab fa-facebook fa-2x my-1"></i>
+          </a>
+      </div>
+   
+  </footer>
+</div>
 
-        <footer class="d-flex bg-info">
-            <p class="footertext">VIAJES CHILE</p>
-            <containet
-        <div id="iconos">
-            <a href="https://github.com/Biancadmsa" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar GitHub">
-                <i class="fa-brands fa-github fa-2x my-1"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/biancasalcedodev/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar Linkedin">
-                <i class="fa-brands fa-linkedin fa-2x my-1"></i>
-            </a>
-            <a href="https://twitter.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar Twitter">
-                <i class="fa-brands fa-twitter fa-2x my-1"></i>
-            </a>
-            <a href="https://www.facebook.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Visitar Facebook">
-                <i class="fa-brands fa-facebook fa-2x my-1"></i>
-            </a>
-        </div>
-          </footer>
-
- 
 
        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
           <script
