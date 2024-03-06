@@ -4,12 +4,20 @@
 
 .navbar p{
     font-size:25px;
-    font-family: "Cabin",sans-serif;
-    font-weight:600;
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
     color:#ffffff;
 }
 
+.TextoViajeaChile{
+  color: #fefbfb;
+  font-size:20px;
+  font-family: "Cabin",sans-serif;
+  font-weight:500;
+}
 
+ 
+ 
 #navbarNav ul li a{
   color:#ffffff;
   font-size: 16pt;
@@ -41,6 +49,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight:500;
+  color:#ffffff;
 }
 
 
@@ -53,12 +62,11 @@
   }
   .fa-solid {
     color: #ffffff;
-    font-size: 22px; /* Ajusta el tamaño de la fuente para hacer el ícono más pequeño */
+    font-size: 22px; 
     width: 9px;
     margin: 4px auto;
     padding: 3px;
-  }
-    
+  } 
   }
   
   @media (max-width: 768px) {
@@ -75,16 +83,30 @@
   justify-content: center;
   display: flex;
 }
+
+
+  /* ---Destacados Card-- */
       
-      
-    /*------ Card ------*/
+  @media(max-width:435px){
+    #destacados h2{
+      font-size: 23px;
+  }
+ }
+
 
 .card h2 {
-  font-size: 20px;
+  font-size:25px;
+  font-family: "Cabin",sans-serif;
+  font-weight:500;
+  justify-content: center;
+  text-align: center;
 }
   
 .card p {
-  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight:400;
+  color:#ffffff;
 }
 .card {
     flex: 1;
@@ -110,6 +132,13 @@
 .formulario{
   background: #000000;
 }
+
+@media(max-width:435px){
+  #formularioSection h2{
+    font-size: 23px;
+}
+}
+
 
 #exampleFormControlTextarea1{
   height: 12rem;
