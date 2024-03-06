@@ -178,7 +178,7 @@ footer .footertext{
   }
 
 footer i{
-  margin-left: 1rem;
+  margin-left: 0.7rem;
 }
 
 /* Iconos redes sociales*/
@@ -195,6 +195,7 @@ footer i{
   .iconos i{
     width: 1.1rem;
     height: auto;
+    margin-right: 4px;
    
   }
 }
