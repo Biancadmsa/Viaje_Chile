@@ -175,28 +175,29 @@ footer .footertext{
   justify-content: center;
   vertical-align: middle;
   }
-
-footer i{
-  margin-left: 1rem;
-}
-
-/* Iconos redes sociales*/
-.iconos a{
-  opacity: 0.9;
-  text-decoration: none;
-}
-
-/* Footer */
-@media(max-width:435px){
-  footer .footertext{
-    font-size: 18px;
-    
+  footer i{
+    margin-left: 1rem;
   }
-  .iconos i{
-    width: 1.3rem;
-    height: auto;
-    margin-left: 0.5rem;
+  
+  /* Iconos redes sociales*/
+  .iconos a{
+    opacity: 0.9;
+    text-decoration: none;
   }
-}
-
+  
+  /* Footer */
+  @media(max-width:435px){
+    footer .footertext{
+      font-size: 18px;
+      
+    }
+    .iconos i{
+      width: 1.3rem;
+      height: auto;
+      margin-left: 0.5rem;
+    }
+  }
+  
+  
+  
 
