@@ -175,6 +175,10 @@ footer .footertext{
   justify-content: center;
   vertical-align: middle;
   }
+
+ 
+  /* Iconos redes sociales*/
+ 
   footer i{
     margin-left: 1rem;
   }
@@ -194,7 +198,7 @@ footer .footertext{
     .iconos i{
       width: 1.3rem;
       height: auto;
-      margin-left: 0.5rem;
+      margin-left: 0.8rem;
     }
   }
   
