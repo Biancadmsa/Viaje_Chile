@@ -2,33 +2,21 @@
     color:#ffffff;
 }
 
-
 .navbar p{
     font-size:25px;
     font-family: "Cabin",sans-serif;
     font-weight:600;
     color:#ffffff;
-
 }
 
-.menuhamburguesa{
-  margin-left: 37rem;
-  background: #f1efef 0% 0% no-repeat padding-box;
-  border: 2px  solid #ffffff;
-  border-radius: 4px;
- 
-}
+
 #navbarNav ul li a{
   color:#ffffff;
   font-size: 16pt;
   font-weight: 400;
   font-family: "Cabin", sans-serif;
 }
-/* .items img {
-  margin: .8rem;
-} */
 
-    
 
 .principal{
   background: #000000;
@@ -55,10 +43,33 @@
   font-weight:500;
 }
 
-.carousel-item img {
-  width: 18rem;
-}
 
+@media(max-width:435px){
+  .contenido h1{
+    font-size: 23px;
+  }
+  .contenido p{
+    font-size: 13px;
+  }
+  .fa-solid {
+    color: #ffffff;
+    font-size: 22px; /* Ajusta el tamaño de la fuente para hacer el ícono más pequeño */
+    width: 9px;
+    margin: 4px auto;
+    padding: 3px;
+  }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .parrafo {
+       margin-bottom: 30px;
+     }
+   }
+   
+
+
+/* iconos */
 .contenido i{
   align-items: center;
   justify-content: center;
@@ -66,17 +77,60 @@
 }
       
       
-    /* Card */
+    /*------ Card ------*/
+
+.card h2 {
+  font-size: 20px;
+}
+  
+.card p {
+  font-size: 12px;
+}
+.card {
+    flex: 1;
+    margin-right: 15px;
+ }
+    
+    
+@media (max-width: 1196px) {
+  .card-group {
+    flex-direction: column;           
+}
+  .card-body h2{
+    color:#625bbe !important;
+    font-weight: bold;
+}
+}    
+  
 .card img{
   height: 11rem;
  }
 
-/* Formulario */
+/*----- Formulario -----*/
 .formulario{
   background: #000000;
 }
 
-/* Footer */
+#exampleFormControlTextarea1{
+  height: 12rem;
+}
+label{
+  color:#ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight:400;
+}
+
+#buttonEnviar{
+  color:#ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight:400;
+  width: 9rem;
+  margin-top: 15px;
+}
+
+/* -----Footer -----*/
 footer{
   display: flex;
   align-items: center;
@@ -93,26 +147,25 @@ footer .footertext{
   vertical-align: middle;
   }
 
-      
 footer i{
   margin-left: 1rem;
 }
 
+/* Iconos redes sociales*/
 .iconos a{
   opacity: 0.9;
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .card {
-      max-width: 100%;
-      margin-top: 25px;
+/* Footer */
+@media(max-width:435px){
+  footer .footertext{
+    font-size: 18px;
   }
-}
-
-@media (max-width: 768px) {
- .parrafo {
-    margin-bottom: 30px;
+  .iconos i{
+    width: 13px;
+    height: auto;
+    margin-right: 4px;
   }
 }
 
