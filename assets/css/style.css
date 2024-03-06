@@ -181,7 +181,7 @@ footer i{
   margin-left: 1rem;
 }
 
-/* Iconos redes sociales. */
+/* Iconos redes sociales*/
 .iconos a{
   opacity: 0.9;
   text-decoration: none;
@@ -193,11 +193,10 @@ footer i{
     font-size: 18px;
   }
   .iconos i{
-    width: 1rem;
+    width: 1.1rem;
     height: auto;
-    margin-right: 2px;
-    padding-right: 2px;
-   
+    margin-right: 1px;
+    padding: 2px ;
   }
 }
 
