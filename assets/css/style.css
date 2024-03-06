@@ -173,12 +173,11 @@ footer .footertext{
   font-weight:500;
   padding-top: 1rem;
   justify-content: center;
-  text-align: left;
   vertical-align: middle;
   }
 
 footer i{
-  margin-left: 0.3rem;
+  margin-left: 1rem;
 }
 
 /* Iconos redes sociales*/
@@ -187,15 +186,16 @@ footer i{
   text-decoration: none;
 }
 
-/* Footer. */
+/* Footer */
 @media(max-width:435px){
   footer .footertext{
     font-size: 18px;
+    
   }
   .iconos i{
-    width: 1.1rem;
+    width: 1.3rem;
     height: auto;
-   
+    margin-left: 0.5rem;
   }
 }
 
