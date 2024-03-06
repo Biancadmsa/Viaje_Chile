@@ -4,39 +4,39 @@ var tooltipTriggerList = [].slice.call(
   );
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
-  });
+});
   
   // Enviar alert al presionar el botón enviar
-  $("#buttonEnviar").click(function () {
-    alert("Tu mensaje ha sido enviado");
-  });
+$("#buttonEnviar").click(function () {
+  alert("Tu mensaje ha sido enviado");
+});
 
 
 // Desaparecer el texto
-  $('.card').click(function() {
-    $(this).closest('.card').find('.card-text').toggle();
-  });
+$('.card').click(function() {
+  $(this).closest('.card').find('.card-text').toggle();
+});
 
 
   // Agregando saltos de texto
-  $(document).ready(function() {
+$(document).ready(function() {
     // Manejador de eventos para cuando el mouse entra en el texto
-    $("#inicio, #QuienesSomos, #Destacados, #Contacto").mouseenter(function() {
+  $("#inicio, #QuienesSomos, #Destacados, #Contacto").mouseenter(function() {
       // Aplica la animación de salto
-      $(this).css("transform", "translateY(-10px)");
-    });
-    $("#inicio, #QuienesSomos, #Destacados, #Contacto").mouseleave(function() {
+  $(this).css("transform", "translateY(-10px)");
+ });
+  $("#inicio, #QuienesSomos, #Destacados, #Contacto").mouseleave(function() {
       // Reinicia la posición original
-      $(this).css("transform", "translateY(0)");
-    });
+   $(this).css("transform", "translateY(0)");
   });
+});
 
 
 // Agregando Sombra en el texto del Navbar
-  $(document).ready(function() {
-    $("#inicio, #QuienesSomos, #Destacados, #Contacto").on('mouseenter', function() {
-      $(this).css('text-shadow', '2px 32px 4px rgba(0, 0, 0, 0.9)');
-    }).on('mouseleave', function() {
-      $(this).css('text-shadow', 'none');
-    });
+$(document).ready(function() {
+  $("#inicio, #QuienesSomos, #Destacados, #Contacto").on('mouseenter', function() {
+    $(this).css('text-shadow', '2px 32px 4px rgba(0, 0, 0, 0.9)');
+  }).on('mouseleave', function() {
+    $(this).css('text-shadow', 'none');
   });
+});
