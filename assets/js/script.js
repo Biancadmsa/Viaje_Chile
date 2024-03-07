@@ -40,3 +40,16 @@ $(document).ready(function() {
     $(this).css('text-shadow', 'none');
   });
 });
+
+$(window).scroll(function(){
+
+  if ($(this).scrollTop() > 400) {
+      $("#menuNav").removeClass("navbar");
+     $('#menuNav').addClass("bg-interno");
+    } else {
+  
+     $("#menuNav").removeClass("bg-interno");
+     $('#menuNav').addClass("navbar");
+    }
+
+ });
