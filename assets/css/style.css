@@ -24,14 +24,14 @@ font-size: 16pt;
 font-weight: 400;
 font-family: "Cabin", sans-serif;
 }
-
-
+/* --Quienes Somos-- */
 .principal{
 background: #000000;
 }
 
 .contenido{
 color:#ffffff;
+
 }
 
 .contenido h1{
@@ -53,6 +53,7 @@ color:#ffffff;
 }
 
 
+ /* usare media query para modificar el font-size de h1, p, iconos; de section id="contenidoQuienesSomos en pantallas con width menor o igual a 435px */
 @media(max-width:435px){
 .contenido h1{
   font-size: 23px;
@@ -68,14 +69,24 @@ color:#ffffff;
   padding: 3px;
 } 
 }
-
+/* en .parrafo, en section id="contenidoQuienesSomos modificaré un margin-bottom en pantallas con width menor o igual a 768px  */
 @media (max-width: 768px) {
   .parrafo {
      margin-bottom: 30px;
    }
  }
  
-
+ /* utilice esta media query en .myhr para quitar un espacio, y #destacados h2 para agregar un margin-top en pantallas con width menor o igual a
+ 769px */
+ @media (max-width: 769px) {
+   .myhr{
+    display:block;
+    margin-top: 0rem;
+   }
+   #destacados h2{
+    margin-top: 0.5rem !important;
+   }
+ }
 
 /* iconos */
 .contenido i{
@@ -137,21 +148,9 @@ margin-bottom: 1px;
 }
 
 
-@media (max-width: 820px) {
-#destacados .card-text {
-  font-size: 80%;
-  margin-top: 0px;
-  font-weight: 600;
-}
-.card-group {
-margin-top: 1px; 
-margin-bottom: 1px;
-}
-}
-
 @media (max-width: 912px) {
 #destacados .card-text {
-  font-size: 85%;
+  font-size: 80%;
   margin-top: 0px;
   font-weight: 600;
 }

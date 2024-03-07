@@ -57,5 +57,6 @@ información asociada.
 ● Una sección footer con links a las redes sociales.
 
 
+Página en Github Pages:
 
 https://biancadmsa.github.io/Viaje_Chile/
