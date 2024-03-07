@@ -49,7 +49,7 @@ información asociada.</li>
 </ul>
 </div
 
-- [Visita este Repositorio en Github Pages :)](https://biancadmsa.github.io/Viaje_Chile/)
+- [Visita este Repositorio en Github Pages haciendo click aquí.](https://biancadmsa.github.io/Viaje_Chile/)     <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30"/>
 
             
    
