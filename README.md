@@ -1,4 +1,4 @@
-<h1>Modulo 2 Desafio Latam: Prueba Viajes Chile</h1><div><a href="https://biancadmsa.github.io/Viaje_Chile/" title="Visita mi Repositorio en Github Pages"></a></div>
+<h1>Modulo 2 Desafío Latam: Prueba Viajes Chile</h1><div><a href="https://biancadmsa.github.io/Viaje_Chile/" title="Visita mi Repositorio en Github Pages"></a></div>
 <h2>Full Stack Javascript Generacion 70 </h2>
 <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> 
 <h3>Profesor: Rodrigo Andrés Vargas Herrera</h3>
