@@ -2,15 +2,18 @@
   color:#ffffff;
 }
 
-.navbar p{
+/* .navbar p{
   font-size:25px;
   font-family: "Roboto", sans-serif;
   font-weight:500;
-  color:#ffffff;
+  color:#0a0a0a;
+} */
+#menuNav {
+  background-color: rgb(59, 61, 61);
+  opacity: 0.6;
 }
-
-.TextoViajeaChile{
-color: #fefbfb;
+.Textobim{
+color: #ffffff;
 font-size:20px;
 font-family: "Cabin",sans-serif;
 font-weight:500;
@@ -26,7 +29,7 @@ font-family: "Cabin", sans-serif;
 }
 /* --Quienes Somos-- */
 .principal{
-background: #000000;
+background: #222121;
 }
 
 .contenido{
@@ -239,3 +242,12 @@ footer i{
 }
 
 
+#whatsapp-chile {
+  position: fixed;
+  top: 15rem;
+  left: 10px;
+opacity: 0.9;}
+
+.footerdiv{
+  background-color: rgb(66, 66, 66);
+}
